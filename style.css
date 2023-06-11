@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'Abril fatface';
+    src: url('./src/font/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+.root{
+    --rosita:#ECC9EE;
+}
+
+body{
+    background-color: #ECC9EE;
+    font-family: Abril fatface;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1024px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #C0DBEA;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+    color: red;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    font-size: 0.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    max-width: 60%;
+    height: auto;
+}
+
+.images{
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    width: 300px;
+    height: auto;
+    transform: rotate(90deg);
+    padding: 3rem;
+}
+
+.spotify{
+    width: 150px;
+    padding-bottom: 1rem;
+}
