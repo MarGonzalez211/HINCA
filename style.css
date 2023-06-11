@@ -74,7 +74,7 @@ p{
     display: flex;
     width: 300px;
     height: auto;
-    transform: rotate(90deg);
+    
     padding: 3rem;
 }
 
